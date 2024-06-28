@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--Please don't do bad things-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="img1.jpg">
+    <title>Father's birthday</title>
+    <style>
+    
+        body{
+            margin: 0;
+            background-color: #EDEDED;
+        }
+        .ft1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ft2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ft3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.ft4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.ft5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#dashboard {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#img1 {
+    margin-left: 5px;
+}
+.div1 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width:515px) {
+    .did1 {
+        flex-direction: column;
+    }
+}
+.button1 {
+    border: none;
+    width: 90px;
+    height: 40px;
+}
+.button1:hover {
+    background-color: darkblue;
+    color: white;
+}
+.aa1 {
+    text-align: center;
+    font-size: 25px;
+    transition: 0.1s;
+}
+.aa1:hover {
+    font-size: 30px;
+}
+    </style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+<!--xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <div id="dashboard">
+         <p class="ft3" style="font-size: 50px;text-align: center;">HAPPY BIRTHDAY FATHER</p>
+    </div>
+    <br><p class="ft2 aa1">Special page made with love for father💖</p>
+    <br>
+    <div class="div1">
+        <br>
+        <div style="width: 100%;height: 90%;display: flex;" class="did1">
+        <div><img src="img1.jpg" style="filter: grayscale(100);" height="200px" width="200px" id="img1"></div>
+        <div style="margin-left: 5px;">
+            <a class="ft1" style="font-size: 30px;">You are the best father</a>
+            <p class="ft3">You are the best father ever!! We always love you!! For everything you did we thank you very much👍🏻We will succeed for you and keep your name.You chill,we do✔️You got all the qualities of a very good always above others and the best father anyone could have.Have a very good day!!.Have a very good day!!</p>
+        </div>
+        </div><br><br>
+        </div>
+    </div><br><br>
+    <img src="hi.jpg" width="350px" height="200px"><br><br>
+    <div class="div1">
+        <br>
+        <div style="width: 100%;height: 90%;display: flex;" class="did1">
+        <div><img src="img2.jpeg" style="filter: grayscale(100);" height="200px" width="200px" id="img1"></div>
+        <div style="margin-left: 5px;">
+            <a class="ft1" style="font-size: 40px;">Today's News</a><br>
+            <a class="ft1" style="font-size: 30px;">T20 World cup Finale</a>
+            <p class="ft3">Big moment for both nations(Sa and India)as they now race for the trophy.Choose the team you support:</p>
+            <div id="choice"><button class="button1" onclick="ci()">India</button>&nbsp;<button class="button1" onclick="csa()">South Africa</button></div>
+            <br><a class="ft5" style="color: #626262;" id="txt1"></a>
+        </div>
+        </div><br><br>
+        </div>
+    </div><br><br>
+    <div class="div1">
+        <br>
+        <div style="width: 100%;height: 90%;display: flex;" class="did1">
+        <div><img src="img3.jpg" style="filter: grayscale(100);" height="200px" width="220px" id="img1"></div>
+        <div style="margin-left: 5px;">
+            <p class="ft5" style="font-size: 30px;color: #626262;">"Note from Sarthak...."</p>
+            <i class="ft4" style="color: #626262">"Father hoping that you are having a great day!!You and me have always been best friends and will always be. Today is a very special day because today is your birthday and also T20 WC Final and today we hope that everything goes as planned.Hope that you are having a great day!!And hoping everyday is a good day for you!!This life rocks👍🏻"</i>
+        </div>
+        </div><br><br>
+        </div>
+    </div>
+    <a href="#" class="ft2" onclick="sc()">Credits</a>
+    <script>
+        console.warn("Use the conssole carefully!!")
+        function ci() {
+            document.getElementById("choice").style.display = "none";
+            alert("Good choice!!Supporting and seeing you country win would be huge")
+            document.getElementById("txt1").innerHTML = "Thanks for choosing!!"
+        }
+        function csa() {
+            document.getElementById("choice").style.display = "none";
+            alert("Not bad!!Sa is also a good team")
+            document.getElementById("txt1").innerHTML = "Thanks for choosing!!"
+        }
+        function sc() {
+            alert("Img:1:??,\nImg2:Google drawing(I phone:https://media.extra.com/s/aurora/100315775_800/Apple-iPhone-14-Pro-Max%2C-5G%2C-128GB%2C-Space-Black?locale=en-GB,en-*,*,Buggati:https://tse2.mm.bing.net/th?id=OIP.q-wILMTmgcxlgtlQXztHNAHaHa&pid=Api&P=0&h=180,Heart:??)\nImg3:https://tse2.mm.bing.net/th?id=OIF.6LV7Sl%2bqOhIewsieOndiSA&pid=Api&P=0&h=180\nRest:me")
+        }
+    </script>
+</body>
+</html>
